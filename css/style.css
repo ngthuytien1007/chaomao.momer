@@ -8074,7 +8074,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-brand {
     color: #000000;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 1; }
     .ftco-navbar-light .navbar-brand span {
       color: #00bd56; }
@@ -8087,7 +8087,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 2.3rem;
     padding-bottom: 2.3rem;
     padding-left: 18px;
