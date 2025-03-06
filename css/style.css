@@ -9798,3 +9798,135 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* ----------<< list-product >>------------ */
+.filter {
+  margin-top: 8px;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.filter-item p {
+  margin: 0 4px 0 0;
+  font-size: 0.875rem;
+  width: 96px;
+}
+
+.filter-item i {
+  width: 14px;
+  text-align: center;
+  display: inline-block;
+}
+
+.filter-item select {
+  border: none;
+  outline: none;
+  font-size: 0.875rem;
+
+  appearance: none;  /* Ẩn mũi tên mặc định */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("arrow-down.svg") no-repeat right 10px center; /* Thêm mũi tên tùy chỉnh */
+  padding-right: 30px; /* Đảm bảo chữ không chạm vào mũi tên */
+}
+
+.filter-btn button {
+  width:100%;
+  outline: none;
+  border: 1px solid #00bd56;
+  background-color: #00bd56;
+  color: var(--white);
+  margin-top: 8px;
+  padding: 6px 16px;
+}
+
+.listProduct {
+  margin: 16px 0;
+}
+
+.listProduct .product-item {
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #ccc;
+  padding: 0 8px 4px 0;
+  margin-bottom: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-item img {
+  width: 120px;
+  height: 120px;
+}
+
+.product-item-right {
+  margin-left: 16px;
+}
+
+.product-name {
+  margin: 8px 0 0 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 20px;
+  font-style: normal;
+  max-width: 100%;
+  color: var(--adonovt-0);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-status {
+  color: rgb(140, 140, 140);
+  cursor: inherit;
+  font-size: 12px;
+  margin: 0;
+}
+
+.product-price {
+  color: rgb(229, 25, 59);
+  cursor: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.product-location-time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.product-location,
+.product-time {
+  color: rgb(140, 140, 140);
+  cursor: inherit;
+  font-size: .75rem;
+  display: inline-block;
+  width: calc(50% - 4px);
+}
+
+.product-rate-sold {
+  padding: 8px 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.product-rate {
+  color: rgb(140, 140, 140);
+  cursor: inherit;
+  font-size: .75rem;
+}
+
+.product-rate-sold {
+  font-size: .75rem;
+}
