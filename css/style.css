@@ -9930,3 +9930,114 @@ textarea.form-control {
 .product-rate-sold {
   font-size: .75rem;
 }
+
+/* css chat bot */
+
+.chatBot {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+}
+
+.chatBot i {
+  font-size: 1.6rem;
+  padding: 12px;
+  background-color: #00bd56;
+  border-radius: 50%;
+  color: var(--white);
+}
+
+.boxChat {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 88vh;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
+  background-color: var(--white);
+  padding: 76px 0 0;
+}
+
+.chat-left {
+  font-size: 0.875rem;
+  background-color: var(--white);
+  border: 1px solid #00bd56;
+  color: #00bd56;
+  padding: 8px 12px;
+  border-radius: 16px;
+  width: auto;
+  display: inline-block;
+  margin: 8px;
+}
+
+.chat-right {
+  font-size: 0.875rem;
+  background-color: #00bd56;
+  color: var(--white);
+  padding: 8px 12px;
+  border-radius: 16px;
+  width: auto;
+  display: inline-block;
+  margin: 8px;
+  float: right;
+}
+
+.boxChat-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 0;
+  background-color: #00bd55;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.chatList {
+  overflow-y: auto;
+  height: calc(88vh - 76px - 54.8px);
+}
+
+.sendChat {
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.sendChat input {
+  width: calc(80% - 16px);
+  border: 1px solid #00bd55;
+  border-radius: 16px;
+  padding: 6px 12px;
+  outline: none;
+  font-size: .875rem;
+}
+
+.sendChat button {
+  width: 20%;
+  background-color: #00bd55;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: .875rem;
+  outline: none;
+  border: none;
+  border-radius: 16px;
+}
+
+/* .boxChat::after {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  right: 40px;
+  border-style: solid;
+  border-width: 12px;
+  border-color: var(--blue) transparent transparent transparent;
+} */
+
+/* end css chat bot */
